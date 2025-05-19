@@ -8,6 +8,9 @@
 #ifndef LPC55XX_DEVICE_DISABLE_FLAGS_FILE
 #include "lpc55xx_device_flags.h"
 #endif
+
+#ifndef LPC55XX_DEVICE_DISABLE
+
 #include "types.h"
 
 /*** LPC55XX DEVICE structures ***/
@@ -241,3 +244,5 @@ void Default_Handler(void) {
         __asm volatile ("wfi");
     }
 }
+
+#endif /* LPC55XX_DEVICE_DISABLE */

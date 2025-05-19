@@ -14,6 +14,7 @@ The drivers rely on:
 | **Flag name** | **Value** | **Description** |
 |:---:|:---:|:---:|
 | `LPC55XX_DEVICE_DISABLE_FLAGS_FILE` | `defined` / `undefined` | Disable the `lpc55xx_device_flags.h` header file inclusion when compilation flags are given in the project settings or by command line. |
+| `LPC55XX_DEVICE_DISABLE` | `defined` / `undefined` | Disable the LPC55xx device code. |
 | `LPC55XX_DEVICE_STACK_SIZE` | `<value>` | Size of the stack to reserve in SRAM memory. |
 | `LPC55XX_DEVICE_HEAP_SIZE` | `<value>` | Size of the heap to reserve in SRAM memory. |
 
